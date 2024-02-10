@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class Assignment2 extends JPanel implements Runnable {
+public class Assignment2_65050070_65050366 extends JPanel implements Runnable {
     double sec = 0;
     int state = 0;
     int delay = 33;
@@ -25,7 +25,7 @@ public class Assignment2 extends JPanel implements Runnable {
     pokemonChangeState change = new pokemonChangeState();
 
     public static void main(String[] args) {
-        Assignment2 m = new Assignment2();
+        Assignment2_65050070_65050366 m = new Assignment2_65050070_65050366();
 
         JFrame panel = new JFrame();
         panel.add(m);
